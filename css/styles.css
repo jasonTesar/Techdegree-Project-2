@@ -136,7 +136,7 @@ padding-bottom: 3.5rem;
 }
 
 .footer-nav li {
-  display: float left;
+  float: left;
 }
 
 .vis-large {
@@ -224,6 +224,11 @@ padding-bottom: 3.5rem;
     display: inline-block;
     float: right;
     padding-top: 1.5rem;
+  }
+
+  .nav li {
+    padding-left: 2rem;
+    padding-right: 0;
   }
 
   .intro {
